@@ -1,0 +1,16 @@
+{
+  "name": "vue-filters",
+  "version": "1.0.0",
+  "description": "Some common useful filters for Vue",
+  "scripts": {
+  },
+  "keywords": [
+    "Vue",
+    "filter"
+  ],
+  "author": "codesinging",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
