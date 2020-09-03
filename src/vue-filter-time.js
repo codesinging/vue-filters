@@ -8,7 +8,7 @@ const padding = n => {
 /**
  * transform the time(seconds) as 'hh:mm:ss' or 'mm:ss' format.
  */
-Vue.filter('time-format', seconds => {
+Vue.filter('time', seconds => {
     let s = parseInt(seconds)
     let m = 0
     let h = 0

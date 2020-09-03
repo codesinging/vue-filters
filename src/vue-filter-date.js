@@ -8,7 +8,7 @@ const padding = n => {
 /**
  * Format date like PHP date function
  */
-Vue.filter('date-format', (date, format = 'Y-m-d H:i:s') => {
+Vue.filter('date', (date, format = 'Y-m-d H:i:s') => {
     if (typeof date === 'number') {
         if (date.toString().length === 10) {
             date *= 1000
